@@ -14,23 +14,25 @@ function logWhisper(string) {
     console.log('hello');
   }
     
-function sayHiToGrandma() {
+function sayHiToGrandma(string) {
     if (string === 'toLowerCase') {
-    console.log("I can't hear you!");
-    } else {
-    console.log("hello");
-    }
+      console.log("I can't hear you!");
+      } else {
+      console.log("hello");
+      }
 
-    if (string === 'toUpperCase') {
+      if (string === 'toUpperCase') {
         console.log("YES INDEED!");
         } else {
         console.log("HELLO");
         }
-   
-    if (string === 'Let\'s have dinner together!') {
-        console.log("I would love to!");
-        } else {
-        console.log("Let's have dinner together!");
-        }
-    
-  }
+
+        if (string === 'Let\'s have dinner together!') {
+          console.log("I would love to!");
+          } else {
+          console.log("Let's have dinner together!");
+          }
+      
+    }
+
+       
